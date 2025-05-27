@@ -1,0 +1,74 @@
+body{
+    background-color: #680303;
+    background-size: cover;
+}
+
+.nome{
+    color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px #bd2d09;
+    max-width: 350px;
+}
+.programador{
+    color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px #bd2d09;
+    max-width: 158px;
+    padding: 3px;
+}
+h2{
+    color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px #bd2d09;
+}
+
+.sobre{
+    padding: 10px;
+    width: 60px;
+
+}
+
+p{
+    color: aliceblue;
+    box-shadow: 0 6px 12px #bd2d09;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.fim{
+    background-image: url("https://i.pinimg.com/originals/5c/d6/b7/5cd6b7873208ce92334cd1d75c60e2ea.gif");
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.school{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 150px;
+    padding: 5px;
+    box-shadow: 0 6px 14px blanchedalmond;
+}
+
+.botao{
+    color: aliceblue;
+    background-color: #680303;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 6px 12px #bd2d09;
+    position: relative;
+    right: -220px;
+    top: -80px;
+    transition: 0.5s, 0.05s;
+    border:2px solid #bd2d09;
+    display: inline-block;
+}
+
+.botao:hover{
+    box-shadow:0 6px 12px #ff3300;
+    transform: scale(1.02);
+}
